@@ -1,0 +1,180 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <style>
+    @media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-section {
+    margin: 20px 0;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+  }
+}
+  .footer {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}.footer-container { display: flex; flex-wrap: wrap; justify-content: space-between; max-width: 1200px; margin: auto; }
+
+.footer-section { flex: 1 1 180px; margin: 20px; }
+
+.footer-section h3, .footer-section h2 { margin-bottom: 15px; color: #fff; }
+
+.footer-section ul { list-style: none; padding: 0; }
+
+.footer-section ul li { margin-bottom: 10px; }
+
+.footer-section ul li a { color: #ccc; text-decoration: none; transition: 0.3s; }
+
+.footer-section ul li a:hover { color: #fff; }
+
+.logo p { margin-bottom: 20px; color: #aaa; }
+
+.social-icons a { margin-right: 10px; color: #ccc; font-size: 18px; text-decoration: none; }
+
+.social-icons a:hover { color: #fff; } body { font-family: Arial, sans-serif; background-color: #f4f4f4; color: #333; margin: 0; padding: 0; } header { background-color: #008080; color: white; padding: 20px; text-align: center; } section { padding: 20px; } .project { background-color: white; margin-bottom: 15px; padding: 15px; border-radius: 8px; } footer { text-align: center; background-color: #222; color: white; padding: 10px; }
+
+.profile-photo { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid white; box-shadow: 0 0 10px rgba(0,0,0,0.2); margin-top: 10px; } @media (max-width: 600px) { body { font-size: 14px; padding: 10px; } .project { width: 90%; } } .navbar { display: flex; justify-content: center; gap: 20px; background-color: #008080; padding: 15px; }
+
+.navbar a { color: white; text-decoration: none; font-weight: bold; }
+
+@media (max-width: 600px) { .navbar { flex-direction: column; align-items: center; } }
+<style>
+  /* your existing styles here */
+
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px 0;
+    flex-wrap: wrap;
+  }
+
+  .social-icons a {
+    color: #ccc;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+
+  .social-icons a:hover {
+    color: white;
+  }
+</style>
+</style>
+
+</head>
+<body><header>
+
+  <div class="header-content">
+    <img src="/Pictures/profile picture.jpg" alt="Marcel's photo" class="profile-photo">
+    <div class="intro-text">
+      <h1>Marcel's Portfolio</h1>
+      <p>Web Developer | Designer | Coder</p>
+    </div>
+  </div>
+</header>
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I'm Marcel, a passionate web developer who loves creating simple and beautiful websites.</p>
+    </section><section>
+
+  <h2>My Projects</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; padding: 10px;"><div style="background: white; border-radius: 10px; padding: 15px; width: 100%; max-width: 300px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+  <h3>Project One</h3>
+  <p>A personal blog built with HTML and CSS.</p>
+  <a href="#">View Project</a> |
+  <a href="#">GitHub</a>
+</div>
+
+<div style="background: white; border-radius: 10px; padding: 15px; width: 100%; max-width: 300px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+  <h3>Project Two</h3>
+  <p>A to-do list app built using JavaScript.</p>
+  <a href="#">View Project</a> |
+  <a href="#">GitHub</a>
+</div>
+
+  </div>
+</section><section>
+    <h2>Contact</h2>
+    <p>Email: kennemarcel2004@gmail.com</p>
+    <p>Phone: 08166549312</p>
+    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    <a href="" target="_blank">Instagram</a>
+</section>
+
+<section>
+  <h2>
+    <nav>
+      <ul>
+        <a href=""><li>Home</li></a>
+        <a href=""><li>Author</li></a>
+        <a href="about.html"><li>About</li></a>
+      </ul>
+    </nav>
+  </h2>
+
+  <section id="contact" style="padding: 40px; background-color: #f4f4f4;">
+    <h2 style="color: #008080;">Contact Me</h2>
+    <p>If you'd like to collaborate, ask a question, or just say hello — feel free to reach out!</p>
+
+    <form action="https://formspree.io/f/xwponqpb" method="POST" style="max-width: 500px;">
+      <input type="text" name="name" placeholder="Your Name" required style="width: 100%; padding: 10px; margin: 10px 0;">
+      <input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 10px; margin: 10px 0;">
+      <textarea name="message" placeholder="Your Message" required style="width: 100%; padding: 10px; margin: 10px 0; height: 100px;"></textarea>
+      <button type="submit" style="background-color: #008080; color: white; padding: 10px 20px; border: none; cursor: pointer;">Send Message</button>
+    </form>
+  </section>
+</section>
+
+<!--<footer>
+    <p>&copy; 2025 Marcel's Portfolio. All rights reserved.</p>
+</footer>-->
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section logo">
+      <h2>Rentiz</h2>
+      <p>Now you know how to use HTML, CSS, and JavaScript to create, style.</p>
+     
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Projects</h3>
+      <ul>
+       <!-- <li><a href="#">Houses</a></li>
+        <li><a href="#">Rooms</a></li>
+        <li><a href="#">Flats</a></li>
+        <li><a href="#">Appartments</a></li>-->
+      </ul>
+    </div>
+  </div>
+  <footer class="footer">
+  <div class="footer-container">
+  
+    <!-- other footer sections here -->
+
+    <!-- Social media icons -->
+    <div class="social-icons">
+      <a href="https://www.instagram.com/kenne_marcel004?igsh=YzljYTk1ODg3Zg" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href=https://github.com/ken-marcel04 target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://facebook.com/yourusername" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://wa.me/+2348166549312" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://x.com/ken68760605?t=mPZmukchdj_q8q1pw-g0eA&s=09" target="_blank"><i class="fab fa-x"></i></a>
+    </div>
+  </div>
+</footer>
+</footer>
+
+</body>
+</html>
